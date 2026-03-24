@@ -1,0 +1,5 @@
+{
+  "name": "Quantum Pong v2.0",
+  "description": "A retro-styled, high-performance Pong game with quantum-inspired visuals and AI difficulty levels.",
+  "requestFramePermissions": []
+}

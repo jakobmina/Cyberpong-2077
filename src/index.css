@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Orbitron:wght@700;900&display=swap');
+
+@theme {
+  --font-share: "Share Tech Mono", monospace;
+  --font-orbitron: "Orbitron", sans-serif;
+  
+  --color-qpong-bg: #04060d;
+  --color-qpong-pri: #00ff88;
+  --color-qpong-acc: #ff0055;
+  --color-qpong-blue: #00c8ff;
+  --color-qpong-dim: rgba(0, 255, 136, 0.35);
+}
+
+body {
+  background-color: var(--color-qpong-bg);
+  color: var(--color-qpong-pri);
+  font-family: var(--font-share);
+}
